@@ -1,0 +1,25 @@
+<header class="site-header" role="banner">
+  <div class="header-container">
+    <div class="site-brand">
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+        <span class="brand-name">Dr. Eddwi Hesky Hasdeo</span>
+        <span class="brand-subtitle">Research Center for Quantum Physics &bull; BRIN</span>
+      </a>
+    </div>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">
+      <span class="nav-toggle-icon">&#9776;</span>
+    </button>
+
+    <nav class="site-nav">
+      <div class="trigger">
+        <a class="page-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+        <a class="page-link {% if page.url contains '/research' %}active{% endif %}" href="{{ '/research/' | relative_url }}">Research</a>
+        <a class="page-link {% if page.url contains '/publications' %}active{% endif %}" href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a class="page-link {% if page.url contains '/cv' %}active{% endif %}" href="{{ '/cv/' | relative_url }}">CV</a>
+        <a class="page-link {% if page.url contains '/mentoring' %}active{% endif %}" href="{{ '/mentoring/' | relative_url }}">Mentoring</a>
+        <a class="page-link {% if page.url contains '/contact' %}active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>

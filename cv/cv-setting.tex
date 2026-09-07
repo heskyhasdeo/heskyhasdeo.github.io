@@ -1,0 +1,95 @@
+%%\renewcommand{\familydefault}{\sfdefault}
+%\setcounter{page}{11}
+% Set name
+\def\name{Eddwi Hesky Hasdeo}
+\def\hes{{\bf E.~H. Hasdeo}}
+\def\sub{\emph{submitted}}
+\def\ip{\emph{in press}}
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {physics, carbon, nanotubes, hasdeo, eddwi, hesky},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  %body={6.7in, 9.2in},
+  left=15mm,
+  top=20mm,
+  right=15mm,
+  bottom=20mm
+}
+
+% Customize page headers
+\pagestyle{fancy}
+\lhead{\small{\it Eddwi Hesky Hasdeo }}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+%% \pagestyle{myheadings}
+%% \markright{\small{Hasdeo Part B2- Standard EF - CoMBIne2DFlat}}
+%%\thispagestyle{empty}
+%% \thispagestyle{fancy}
+%% \lhead{}
+%% \chead{}
+%% \rhead{}
+%% \lfoot{}
+%% \cfoot{\thepage}
+%% \rfoot{}
+
+%%Custom section fonts
+%\usepackage{sectsty}
+\renewcommand{\familydefault}{\rmdefault}
+
+%%\sectionfont{\rmfamily\mdseries\large}
+%% \subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+% Make lists without bullets
+
+\setlist{nosep}
+
+\renewenvironment{itemize}{
+  \begin{list}{}{
+      \setlength{\leftmargin}{1.5em}
+      \setlength{\parskip}{0pt}
+      \setlength{\parsep}{0pt}
+      \setlength{\itemsep}{3pt}
+  }
+}{
+  \end{list}
+}
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+%remove spacing
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+
+%\setlength{\headsep}{0pt}
+\setlength{\topskip}{0pt}
+%\setlength{\topmargin}{0pt}
+%\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{\scshape}
+%\titleformat{\section}{\thesection}{1em}{\scshape}
+%%\titlespacing*{\section}{0pt}{1.1\baselineskip}{\baselineskip}
+
+
+\singlespacing

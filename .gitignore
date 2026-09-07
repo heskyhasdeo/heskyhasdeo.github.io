@@ -3,3 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+*:com.dropbox.attrs
