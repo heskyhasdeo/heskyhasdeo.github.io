@@ -30,6 +30,6 @@ description: "About Dr. Eddwi Hesky Hasdeo: academic background, research intere
   </div>
 
   <div style="flex-shrink: 0; text-align: center;">
-    <img src="{{ '/assets/images/hasdeo.jpg' | relative_url }}" alt="Dr. Eddwi Hesky Hasdeo" style="width: 220px; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); border: 2px solid #ffffff; outline: 1px solid var(--color-border);">
+    <img src="{{ '/assets/images/hasdeo.jpg' | relative_url }}" alt="Dr. Eddwi Hesky Hasdeo" style="width: 220px; height: 220px; object-fit: cover; object-position: center top; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); border: 2px solid #ffffff; outline: 1px solid var(--color-border);">
   </div>
 </div>
