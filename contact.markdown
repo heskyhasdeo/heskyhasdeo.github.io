@@ -31,9 +31,6 @@ description: "Contact information and office location of Dr. Eddwi Hesky Hasdeo 
         <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </li>
       <li>
-        <strong>Phone / Mobile:</strong> <code>+62 812-9791-2591</code>
-      </li>
-      <li>
         <strong>Google Scholar:</strong> <a href="{{ site.scholar_url }}" target="_blank" rel="noopener">scholar.google.com/citations</a>
       </li>
       <li>
