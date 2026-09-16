@@ -861,3 +861,21 @@ description: "Complete list of peer-reviewed publications, book chapters, and pr
     </div>
   </li>
 </ul>
+
+<h2 id="book" style="margin-top: 3.5rem;">Book</h2>
+<div style="margin-top: 1.5rem; text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+    <a href="https://lynk.id/heskyhasdeo/rw4zeypjzwxv" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/bookcover1.png' | relative_url }}" alt="Teori Materi Kuantum - Front Cover" style="max-width: 260px; height: auto; border-radius: var(--radius-md); box-shadow: var(--shadow-md); border: 1px solid var(--color-border);">
+    </a>
+    <a href="https://lynk.id/heskyhasdeo/rw4zeypjzwxv" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/bookcover2.png' | relative_url }}" alt="Teori Materi Kuantum - Back Cover" style="max-width: 260px; height: auto; border-radius: var(--radius-md); box-shadow: var(--shadow-md); border: 1px solid var(--color-border);">
+    </a>
+  </div>
+  <p style="margin-bottom: 0;">
+    <a href="https://lynk.id/heskyhasdeo/rw4zeypjzwxv" target="_blank" rel="noopener" style="font-size: 1.1rem; font-weight: 600; color: var(--color-accent); text-decoration: underline;">
+      https://lynk.id/heskyhasdeo/rw4zeypjzwxv
+    </a>
+  </p>
+</div>
+
